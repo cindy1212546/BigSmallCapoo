@@ -12,6 +12,8 @@
 		0C70DC4F207DCC9B00BBC8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C70DC4D207DCC9B00BBC8EC /* Main.storyboard */; };
 		0C70DC51207DCC9B00BBC8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C70DC50207DCC9B00BBC8EC /* Assets.xcassets */; };
 		0C70DC54207DCC9B00BBC8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C70DC52207DCC9B00BBC8EC /* LaunchScreen.storyboard */; };
+		57B5F5FB20A2A52B0087B037 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B5F5FA20A2A52B0087B037 /* CardController.swift */; };
+		57B5F5FD20A2A63E0087B037 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B5F5FC20A2A63E0087B037 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0C70DC50207DCC9B00BBC8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C70DC53207DCC9B00BBC8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C70DC55207DCC9B00BBC8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B5F5FA20A2A52B0087B037 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		57B5F5FC20A2A63E0087B037 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				0C70DC49207DCC9B00BBC8EC /* AppDelegate.swift */,
 				0C70DC4B207DCC9B00BBC8EC /* ViewController.swift */,
 				0C70DC4D207DCC9B00BBC8EC /* Main.storyboard */,
+				57B5F5FC20A2A63E0087B037 /* CardView.swift */,
+				57B5F5FA20A2A52B0087B037 /* CardController.swift */,
 				0C70DC50207DCC9B00BBC8EC /* Assets.xcassets */,
 				0C70DC52207DCC9B00BBC8EC /* LaunchScreen.storyboard */,
 				0C70DC55207DCC9B00BBC8EC /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B5F5FB20A2A52B0087B037 /* CardController.swift in Sources */,
 				0C70DC4C207DCC9B00BBC8EC /* ViewController.swift in Sources */,
 				0C70DC4A207DCC9B00BBC8EC /* AppDelegate.swift in Sources */,
+				57B5F5FD20A2A63E0087B037 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
